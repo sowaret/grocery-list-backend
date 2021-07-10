@@ -8,6 +8,7 @@
 	},
 	"license": "ISC",
 	"dependencies": {
+		"@sowaret/redux-websocket-middleware": "^1.1.0",
 		"array-move": "^3.0.1",
 		"axios": "^0.21.1",
 		"cors": "^2.8.5",

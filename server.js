@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const { API_PORT, DB_ROUTE } = require('./config');
 const routes = require('./routes');
-const { createWebSocketServer } = require('./websocket/webSocketServer');
+const createWebSocketServer = require('./websocket/webSocketServer');
 
 mongoose
 	.connect(DB_ROUTE, {
